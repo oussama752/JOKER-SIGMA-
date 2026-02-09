@@ -10,7 +10,7 @@ class JokerSigmaCore:
         self.sig = "CREATED BY JOKER | SIGMA-V99"
 
     def execute_elite_audit(self, target):
-        # Flags: Stealth SYN, RPC Scan, Service Aggression, OS Fingerprinting, Vulnerability Scripts
+        
         elite_flags = "-sS -sV -sC -O -T4 --version-all --script=vuln,banner,realvnc-auth-bypass"
         try:
             self.scanner.scan(target, arguments=elite_flags)
@@ -49,7 +49,7 @@ class JokerSigmaCore:
     def build_sigma_report(self, data):
         pdf = FPDF()
         pdf.add_page()
-        # Tactical Dark Header
+        
         pdf.set_fill_color(0, 0, 0)
         pdf.rect(0, 0, 210, 60, 'F')
         
