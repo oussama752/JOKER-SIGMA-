@@ -6,7 +6,7 @@ class JokerEngine:
         self.nm = nmap.PortScanner()
 
     def run_deep_scan(self, target):
-        # Scan arguments for aggressive version detection and vulnerability scripts
+        
         flags = "-sV -T4 -Pn --script=vuln"
         self.nm.scan(target, arguments=flags)
         return self.nm
@@ -18,7 +18,7 @@ class JokerEngine:
             return target
 
     def get_service_risk(self, port, version):
-        # Logic to assign risk levels based on discovered versions
+        
         if "23" in str(port) or "telnet" in version.lower():
             return "CRITICAL"
         return "STABLE"
