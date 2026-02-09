@@ -15,7 +15,7 @@ class JokerSigmaTerminal(ctk.CTk):
         self.grid_columnconfigure(1, weight=1)
         self.grid_rowconfigure(0, weight=1)
 
-        # Sidebar: Tactical Control
+        
         self.sidebar = ctk.CTkFrame(self, width=320, fg_color="#000", corner_radius=0)
         self.sidebar.grid(row=0, column=0, sticky="nsew")
         
@@ -27,7 +27,7 @@ class JokerSigmaTerminal(ctk.CTk):
         self.status_txt = ctk.CTkLabel(self.status_pnl, text="● READY", text_color="#00FF00", font=("Courier", 18, "bold"))
         self.status_txt.pack(pady=25)
 
-        # Main Hub
+        
         self.hub = ctk.CTkFrame(self, fg_color="#080808", corner_radius=25)
         self.hub.grid(row=0, column=1, padx=25, pady=25, sticky="nsew")
 
