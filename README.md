@@ -28,3 +28,17 @@ Before engaging the system, ensure you have the following installed:
 ```bash
 git clone [https://github.com/YOUR_USERNAME/JOKER-SIGMA.git](https://github.com/YOUR_USERNAME/JOKER-SIGMA.git)
 cd JOKER-SIGMA
+# JOKER-SIGMA
+
+Advanced automation and system analysis framework.
+
+## Features
+- Modular Architecture
+- High-Performance Execution
+- Minimal Resource Consumption
+
+## Installation
+```bash
+git clone [https://github.com/oussama752/JOKER-SIGMA-.git](https://github.com/oussama752/JOKER-SIGMA-.git)
+cd JOKER-SIGMA-
+pip install -r requirements.txt
