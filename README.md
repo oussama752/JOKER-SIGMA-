@@ -39,6 +39,6 @@ Advanced automation and system analysis framework.
 
 ## Installation
 ```bash
-git clone [https://github.com/oussama752/JOKER-SIGMA-.git](https://github.com/oussama752/JOKER-SIGMA-.git)
+git clone [https://github.com/oussama752/JOKER-SIGMA-.git]
 cd JOKER-SIGMA-
 pip install -r requirements.txt
