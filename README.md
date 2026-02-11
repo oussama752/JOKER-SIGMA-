@@ -42,3 +42,14 @@ Advanced automation and system analysis framework.
 git clone [https://github.com/oussama752/JOKER-SIGMA-.git]
 cd JOKER-SIGMA-
 pip install -r requirements.txt
+Usage
+python main.py
+---
+
+### 2. `requirements.txt`
+```text
+requests==2.31.0
+colorama==0.4.6
+python-dotenv==1.0.1
+rich==13.7.0
+pytest==7.4.3
