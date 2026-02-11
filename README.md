@@ -26,7 +26,7 @@ Before engaging the system, ensure you have the following installed:
 ## 💻 Installation & Usage
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/JOKER-SIGMA.git](https://github.com/YOUR_USERNAME/JOKER-SIGMA.git)
+
 cd JOKER-SIGMA
 # JOKER-SIGMA
 
